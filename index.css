@@ -1,0 +1,109 @@
+.container{
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.text{
+    margin-top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+
+}
+
+.text-header{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 20px;
+
+    color: #EEEEEE;
+
+}
+
+.score-box{
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    margin-top: 21px;
+    
+    background: #080001;
+    border-radius: 5px;
+}
+
+.score{
+    width: 117px;
+    height: 120px;
+    margin-left: 15px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.text-guest{
+    margin-top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+
+}
+
+.count-box{
+    box-sizing: border-box;
+
+    width: 45px;
+    height: 45px;
+    left: 75px;
+    margin-top: 26px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.count-boxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.value-increment{
+    margin-top: 7px;
+    text-align: center;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}

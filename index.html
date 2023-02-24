@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div>
+
+            <div class="text"> HOME </div>
+            <div class="score-box">
+                <div class="score" id="home-value">
+                    0
+                </div>
+            </div>
+            <div class="count-boxes">
+                <div class="count-box" onclick="increment('home', '1')">
+                    <div class=" value-increment">
+                        +1
+                    </div>
+                </div>
+                <div class="count-box" onclick="increment('home','2')">
+                    <div class=" value-increment">
+                        +2
+                    </div>
+                </div>
+                <div class="count-box" onclick="increment('home','3')">
+                    <div class=" value-increment">
+                        +3
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div>
+            <div class="text"> GUEST </div>
+            <div class="score-box">
+                <div class="score" id="text-guest">
+                    0
+                </div>
+            </div>
+            <div class="count-boxes">
+                <div class="count-box" onclick="increment('guest','1')">
+                    <div class=" value-increment">
+                        +1
+                    </div>
+                </div>
+                <div class="count-box" onclick="increment('guest','2')">
+                    <div class=" value-increment">
+                        +2
+                    </div>
+                </div>
+                <div class="count-box" onclick="increment('guest','3')">
+                    <div class=" value-increment">
+                        +3
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-header" onclick="reset()"> NEW GAME</div>
+    </div>
+</body>
+
+</html>
